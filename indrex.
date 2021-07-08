@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resume.css">
+    <style>
+    body{
+    background-color: blueviolet;
+    overflow-x: hidden;
+    
+}
+.column1 {
+    float: left;
+    width: 300px;
+    height: 800px;
+    
+    
+  }
+  .column2 {
+    float: right;
+    width: 988px;
+    height: 805px;
+    background-color: white;
+    position: relative;
+    right: 40px;
+    
+    
+    
+    
+    
+  }
+  .img{
+      height: 160px;
+      width: 160px;
+      border-radius: 350px;
+      position: relative;
+      top: 40px;
+      left: 70px;
+      
+
+  }
+  .h1i{
+    position: relative;
+    left: 30px;
+    top: 20px;
+    color:  rgb(228, 20, 124);
+    
+}
+  .h1{
+      padding-left: 30px;
+      padding-top: 35px;
+      color: black
+  }
+  .but{
+      position: relative;
+      left: 780px;
+      bottom: 30px;
+      background-color: blueviolet;
+      border: 1px solid black;
+      color: white;
+  }
+  .p1{
+      padding: 30px;
+      text-align: justify;
+    letter-spacing: 2px;
+    
+      font-size: 20px;
+      padding-right: 25px;
+      position: relative;
+      bottom: 26px;
+      
+  }
+  .sp{
+      font-weight: 700;
+      padding-left: 30px;
+  }
+  .h2{
+      position: relative;
+      top: 20px;
+      color: white;
+  }
+  .p3{
+      padding-left: 80px;
+      color: white;
+  }
+ .pro{
+     height: 10px;
+     width: 400px;
+     border: 1px solid  rgb(228, 20, 124);
+     margin-left: 30px;
+     background-color: rgb(228, 20, 124);
+     
+ }
+ .pro1{
+    height: 10px;
+    width: 40px;
+    border: 1px solid  rgb(228, 20, 124);
+    margin-left: 30px;
+    background-color: white;
+    position: relative;
+    bottom: 12px;
+    left: 360px;
+    
+    
+
+    
+}
+.pro2{
+    height: 10px;
+    width: 70px;
+    border: 1px solid  rgb(228, 20, 124);
+    margin-left: 30px;
+    background-color: white;
+    position: relative;
+    bottom: 12px;
+    left: 330px;
+    
+    
+
+    
+}
+.pro3{
+    height: 10px;
+    width: 180px;
+    border: 1px solid  rgb(228, 20, 124);
+    margin-left: 30px;
+    background-color: white;
+    position: relative;
+    bottom: 12px;
+    left: 220px;
+    
+    
+
+    
+}
+.pro4{
+    height: 10px;
+    width: 120px;
+    border: 1px solid  rgb(228, 20, 124);
+    margin-left: 30px;
+    background-color: white;
+    position: relative;
+    bottom: 12px;
+    left: 280px;
+    
+    
+
+    
+}
+.res{
+    float: right;
+    position: relative;
+    bottom: 160px;
+    right: 20px;
+}
+.h3i{
+    position: relative;
+    left: 380px;
+}
+.h3{
+    position: relative;
+    left: 240px;
+}
+.h4{
+    position: relative;
+    left: 350px;
+}
+.h5{
+    position: relative;
+    left: 280px;
+}
+
+.h1{
+    position: relative;
+    top: 40px;
+}  
+.fa{
+    
+    font-size: 20px;
+
+    text-decoration: none;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    color: white;
+  }
+  .fa1{
+      position: relative;
+      bottom: 37px;
+      left: 25px;
+  }
+  .fa2{
+    position: relative;
+    bottom: 73px;
+    left: 59px;
+}
+.fa3{
+    position: relative;
+    bottom: 109px;
+    left: 90px;
+}
+.fa4{
+    position: relative;
+    bottom: 146px;
+    left: 120px;
+}
+ul,li{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    
+}
+.ul{
+    position: relative;
+    bottom: 140px;
+    left: 40px;
+}
+
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <div class="column1">
+        <img class="img" src="dp1.jpeg">
+        <h1 align="center" class="h2">Kumar U1</h1>
+        <p class="p3">UI/UX Developer</p><br>
+        <a href="#"  class="fa fa-facebook"></a>
+        <div class="fa1">
+        <a href="#"  class="fa fa-twitter"></a>
+        </div>
+        <div class="fa2">
+            <a href="#"  class="fa fa-whatsapp"></a>
+            </div>
+            <div class="fa3">
+                <a href="#"  class="fa fa-instagram"></a>
+                </div>
+                <div class="fa4">
+                    <a href="#"  class="fa fa-linkedin"></a>
+                    </div>
+                <div class="ul">
+                    <ul>
+                        <li>ABOUT ME</li><br><br>
+                        <LI>EXPEREINCE</LI><br><br>
+                        <LI>EDUCATION</LI><br><br>
+                        <LI>WORKS</LI><br><br>
+                        <LI>CONTACT</LI>
+                    </ul>   
+                </div>
+               
+        </div>
+        <div class="column2">
+            <h2 class="h1i">ABOUT ME </h2>
+            <input class="but" type="submit" value="⬇ Download Resume"><br>
+            <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis saepe asperiores doloremque voluptatibus cum laboriosam repellat animi doloribus explicabo suscipit veritatis, quibusdam amet praesentium minus voluptates maiores atque dignissim Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod totam ratione magni, nostrum reprehenderit minus exercitationem assumenda sunt mollitia veniam.</p>
+            <p class="p2"><span class="sp">Birthday:</span>April 08,2002</p>
+            <p class="p2"><span class="sp">Location:</span>Avaniyapuram,Madurai</p>
+            <p class="p2"><span class="sp">Email:</span>Keerthisakthi842@gmail.com</p>
+            <p class="p2"><span class="sp">Phone:</span>+916379422743</p>
+            <h3 class="h1">html</h3>
+            <h3 class="h3i">90%</h3>
+            <div class="pro"></div>
+            <div class="pro1"></div>
+            <div class="res">
+            <h3 class="h1">Css</h3>
+            <h3 class="h4">75%</h3>
+            <div class="pro"></div>
+            <div class="pro2"></div>
+            </div>
+                <h3 class="h1">Bootstrap</h3>
+                <h3 class="h3">50%</h3>
+                <div class="pro"></div>
+                <div class="pro3"></div>
+                <div class="res">
+                    <h3 class="h1">Wordpress</h3>
+                    <h3 class="h5">70%</h3>
+                    <div class="pro"></div>
+                    <div class="pro4"></div>
+                    </div>
+                    
+            
+            
+
+
+        </div>
+      </div>
+</body>
+</html>
